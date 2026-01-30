@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 
 class CustomerInput(BaseModel):
-    tenure: int
+    Tenure: int
     MonthlyCharges: float
     Contract: str
-    InternetService: str
+    TotalCharges : float
     PaymentMethod: str
